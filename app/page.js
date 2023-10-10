@@ -1,21 +1,12 @@
-import Header from './components/Header'
+import Header from './components/Main'
 import Contents from './components/Contents'
-import { Footer } from './components/Footer'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 
 export default function Home() {
   return (
-    <main>
-      <header>
-        <Header />
-      </header>
-
-      <section>
-        <Contents />
-      </section>
-
-      <footer>
-        <Footer />
-      </footer>
+    <main className='font-poppins relative'>
+      <Contents />
     </main>
   )
 }
