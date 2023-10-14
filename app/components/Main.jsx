@@ -1,4 +1,5 @@
 import About from "./About";
+import Footer from "./Footer";
 import Img from "./Img";
 import Why from "./Why";
 
@@ -15,6 +16,9 @@ const Main = () => {
 			<div className="">
 				<Why />
 			</div>
+			<footer className="">
+				<Footer />
+			</footer>
 		</div>
 	);
 };

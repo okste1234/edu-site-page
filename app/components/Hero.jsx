@@ -17,7 +17,7 @@ const Hero = () => {
 		// 	<div className="bg-[#510f4d]/60 w-full"></div>
 		// </div>
 
-		<div className="carousel w-full h-[700px] flex flex-shrink-0 relative bg-cover bg-center bg-no-repeat group">
+		<div className="carousel w-full h-[620px] flex flex-shrink-0 relative bg-cover bg-center bg-no-repeat group">
 			<div id="slide1" className="carousel-item w-full">
 				<div className="bg-[#510f4d]/60 w-full"></div>
 				<Image
