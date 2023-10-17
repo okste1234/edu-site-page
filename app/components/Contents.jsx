@@ -1,5 +1,4 @@
 import React from "react";
-
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Main from "./Main";
@@ -17,6 +16,9 @@ const Contents = () => {
 			<section className="relative">
 				<Main />
 			</section>
+			<footer className="">
+				<Footer />
+			</footer>
 		</div>
 	);
 };

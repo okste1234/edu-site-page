@@ -3,9 +3,9 @@ import React from "react";
 const Img = () => {
 	return (
 		<div className="bg-[#eceff3]">
-			<div className="relative -top-60 flex justify-between px-5 lg:px-10 xl:px-3 max-w-7xl m-auto">
+			<div className="relative -top-56 flex justify-between px-5 lg:px-10 xl:px-3 max-w-7xl m-auto">
 				<div className="relative bg-cover bg-center bg-no-repeat">
-					<div className="bg-[#e97be2]/30 absolute w-[500px] left-3 h-[355px] z-10 rounded"></div>
+					<div className="bg-[#81105b]/40 absolute w-[500px] left-3 h-[355px] z-10 rounded"></div>
 					<div className="stack">
 						<img
 							src="/t.jpg"
@@ -26,7 +26,7 @@ const Img = () => {
 				</div>
 
 				<div className="relative bg-cover bg-center bg-no-repeat">
-					<div className="bg-[#e97be2]/30 absolute w-[530px] left-3 h-[355px] z-10 rounded"></div>
+					<div className="bg-[#81105b]/40 absolute w-[530px] left-3 h-[355px] z-10 rounded"></div>
 					<div className="stack -z[1]">
 						<img
 							src="/s1.jpg"
@@ -43,7 +43,6 @@ const Img = () => {
 							Percentage of students <br /> admitted through us
 						</h3>
 						<p className="font-extrabold">95%</p>
-						<a href=""></a>
 					</div>
 				</div>
 			</div>

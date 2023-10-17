@@ -57,14 +57,14 @@ const Navbar = () => {
 							alt="logo"
 							className="w-[50px] lg:w-[80px] h-auto"
 						/>
-						<span className="pt-4 lg:pt-6 text-[#510f4d] text-sm lg:text-xl text-center">
+						<span className="pt-4 lg:pt-6 text-[#81105b] text-sm lg:text-xl text-center">
 							<h1>ICONIC IMPACT</h1>
 						</span>
 					</a>
 				</div>
 				<div className="hidden navbar-center mt-2 lg:flex">
 					<ul className="flex px-1 font-medium text-xl justify-between">
-						<li className="pt-6 px-3 xl:px-6 2xl:px-9 border-[#510f4d] border-t-4">
+						<li className="pt-6 px-3 xl:px-6 2xl:px-9 border-[#81105b] border-t-4">
 							<p>Home</p>
 						</li>
 						<li className="pt-6 px-3 xl:px-6 2xl:px-9 hover:border-[#510f4d] border-[#fff] border-t-4">
@@ -86,7 +86,7 @@ const Navbar = () => {
 					</ul>
 				</div>
 				<div className="pt-6 lg:w-1/3 hidden lg:flex justify-end">
-					<a className="btn bg-[#fdc000]/60">Join Now</a>
+					<a href="" className="btn bg-[#fdc000]/60">Join Now</a>
 				</div>
 			</div>
 		</div>

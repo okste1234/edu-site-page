@@ -19,7 +19,8 @@ const Hero = () => {
 
 		<div className="carousel w-full h-[620px] flex flex-shrink-0 relative bg-cover bg-center bg-no-repeat group">
 			<div id="slide1" className="carousel-item w-full">
-				<div className="bg-[#510f4d]/60 w-full"></div>
+				<div className="bg-[#81105b]/40  w-full"></div>
+				{/* [#510f4d]/60 */}
 				<Image
 					src="/1.webp"
 					// src="/2.jpg"
@@ -37,7 +38,7 @@ const Hero = () => {
 				</div>
 			</div>
 			<div id="slide2" className="carousel-item relative w-full">
-				<div className="bg-[#510f4d]/60 w-full"></div>
+				<div className="bg-[#81105b]/60 w-full"></div>
 				<Image
 					src="/2.jpg"
 					// src="/3.jpg"

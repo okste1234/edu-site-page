@@ -3,11 +3,12 @@ import Pag from "./Pag";
 
 const Why = () => {
 	return (
-		<div className="pt-20 m-auto">
+		<div className="pt-12 m-auto">
 			<div className="min-h-screen relative max-w-7xl m-auto">
 				<div>
 					<Pag
 						src={"/tu3.png"}
+						no={1}
 						head="Our Tutors"
 						text="Our tutors are basically medical and engineering students from
 							prestigious universities all across Nigeria. Their dexterity in
@@ -16,12 +17,14 @@ const Why = () => {
 					/>
 					<Pag
 						src={"/tu5.png"}
+						no={2}
 						head="Our Classes"
 						text="Our classes take place on one of the most educational friendly apps, 
 						Telegram where we make use of Channels, High definition audios among others."
 					/>
 					<Pag
 						src={"/tu1.png"}
+						no={3}
 						head="Mentorship and supervised reading"
 						text="Whatsapp meetings, text messages and phone calls helps us in achieving this. 
 						We provide a one-on-one relationship for our students through the office of the students' 
@@ -29,6 +32,7 @@ const Why = () => {
 					/>
 					<Pag
 						src={"/tu2.png"}
+						no={4}
 						head="Online Materials"
 						text="We have a bank of materials safely uploaded to our 
 						Google Drive containing the right pills to acing your 
@@ -36,6 +40,7 @@ const Why = () => {
 					/>
 					<Pag
 						src={"/tu4.png"}
+						no={5}
 						head="Online Classes"
 						text={
 							<div>

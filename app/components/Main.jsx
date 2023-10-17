@@ -1,6 +1,7 @@
 import About from "./About";
-import Footer from "./Footer";
+import Blog from "./Blog";
 import Img from "./Img";
+import Join from "./Join";
 import Why from "./Why";
 
 const Main = () => {
@@ -16,9 +17,12 @@ const Main = () => {
 			<div className="">
 				<Why />
 			</div>
-			<footer className="">
-				<Footer />
-			</footer>
+			<div>
+				<Join />
+			</div>
+			<div>
+				<Blog />
+			</div>
 		</div>
 	);
 };
