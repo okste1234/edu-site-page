@@ -26,5 +26,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("daisyui", "@tailwindcss/aspect-ratio")],
+  plugins: [require("daisyui", "@tailwindcss/aspect-ratio"), require('tailwind-scrollbar'),],
 }

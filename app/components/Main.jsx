@@ -2,11 +2,12 @@ import About from "./About";
 import Blog from "./Blog";
 import Img from "./Img";
 import Join from "./Join";
+import Testimonial from "./Testimonial";
 import Why from "./Why";
 
 const Main = () => {
 	return (
-		<div>
+		<div className="bg-[#f4f4f4]">
 			<div className="bg-[#0a0a0a]">
 				<About />
 			</div>
@@ -19,6 +20,9 @@ const Main = () => {
 			</div>
 			<div>
 				<Join />
+			</div>
+			<div>
+				<Testimonial />
 			</div>
 			<div>
 				<Blog />

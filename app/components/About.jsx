@@ -2,12 +2,13 @@ import React from "react";
 
 const About = () => {
 	return (
-		<div className="min-h-[580px] pt-[70px] px-5 lg:px-10 xl:px-1 text-white max-w-7xl m-auto">
+		<div className="min-h-[440px] pt-[70px] px-5 lg:px-10 xl:px-1 text-white max-w-7xl m-auto">
 			<div className="lg:flex m-auto">
 				<div className="w-[55%] px-6">
-					<h3 className="text-xs font-semibold text-[#e97be2] tracking-[4px] pb-6">
+					<h3 className="text-xs font-semibold text-[#a854b9] tracking-[4px] pb-6">
 						WHO WE ARE
 					</h3>
+					{/* #e97be2  */}
 					<p className=" font-medium text-4xl tracking-[2px]">
 						The best online learning platform With the aim of impacting minds.
 						Crafted specially to bring out the champions in students.

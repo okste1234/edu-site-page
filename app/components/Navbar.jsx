@@ -57,7 +57,8 @@ const Navbar = () => {
 							alt="logo"
 							className="w-[50px] lg:w-[80px] h-auto"
 						/>
-						<span className="pt-4 lg:pt-6 text-[#81105b] text-sm lg:text-xl text-center">
+						<span className="pt-4 lg:pt-6 text-[#4C0859] text-sm lg:text-xl text-center">
+							{/* #81105b */}
 							<h1>ICONIC IMPACT</h1>
 						</span>
 					</a>
