@@ -3,8 +3,8 @@ import React from "react";
 
 const Hero = () => {
 	return (
-		<div className="carousel w-full h-[620px] flex flex-shrink-0 relative bg-cover bg-center bg-no-repeat group">
-			<div id="slide1" className="carousel-item w-full">
+		<div className="carousel w-screen h-[265px] xs:h-[265px] sm:h-[397px] md:h-[397px] lg:h-[496px] xl:h-[620px] flex flex-shrink-0 relative bg-cover bg-center bg-no-repeat group">
+			<div id="slide1" className="carousel-item w-screen">
 				<div className="bg-[#4C0859]/40  w-full"></div>
 				{/* [#510f4d]/60 #81105b/40  */}
 				<Image
@@ -21,7 +21,7 @@ const Hero = () => {
 					</a>
 				</div>
 			</div>
-			<div id="slide2" className="carousel-item relative w-full">
+			<div id="slide2" className="carousel-item relative w-screen">
 				<div className="bg-[#4C0859]/40 w-full"></div>
 				{/* #81105b */}
 				<Image

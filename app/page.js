@@ -6,8 +6,8 @@ import Hero from './components/Hero'
 
 export default function Home() {
   return (
-    <main className='font-poppins relative scrollbar-thin'>
-      <nav className="top-0 sticky w-full bg-base-100 z-50">
+    <main className='font-poppins relative overflow-x-clip'>
+      <nav className="top-0 fixed w-full bg-base-100 z-50">
         <Navbar />
       </nav>
       <header>

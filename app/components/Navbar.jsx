@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
 	return (
-		<div className="lg:px-5 mx-3 lg:my-3 pb-3 2xl:pb-5">
+		<div className="lg:px-5 mx-3 lg:my-3 pb-1 2xl:pb-3">
 			<div className="bg-base-100 mt-1 w-full flex lg:justify-between">
 				<div className="flex lg:justify-start justify-between w-full lg:w-1/3 flex-shrink-0">
 					<div className="dropdown justify-start">

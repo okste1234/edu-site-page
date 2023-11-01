@@ -11,21 +11,22 @@ const Main = () => {
 			<div className="bg-[#0a0a0a]">
 				<About />
 			</div>
-
-			<div>
+			<div className="bg-[#eceff3]">
 				<Img />
 			</div>
-			<div className="">
-				<Why />
-			</div>
-			<div>
-				<Join />
-			</div>
-			<div>
-				<Testimonial />
-			</div>
-			<div>
-				<Blog />
+			<div className="max-w-[1450px] m-auto">
+				<div className="relative">
+					<Why />
+				</div>
+				<div>
+					<Join />
+				</div>
+				<div>
+					<Testimonial />
+				</div>
+				<div>
+					<Blog />
+				</div>
 			</div>
 		</div>
 	);
