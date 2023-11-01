@@ -44,7 +44,7 @@ const Why = () => {
 				text={
 					<div className="xs:flex md:block">
 						<p>Categories </p>
-						<ul className="list-inside p-2 xs:p-0 xs:pl-4 md:p-2 xs:space-y-5 lg:space-y-2 text-base lg:text-xl">
+						<ul className="list-inside p-2 xs:p-0 xs:pl-4 md:p-2 xs:space-y-5 sm:space-y-2 text-base lg:text-xl">
 							<li>- UTME classes</li>
 							<li>- POST UTME classes for all varsities</li>
 							<li>- School and College of Nursing classes.</li>

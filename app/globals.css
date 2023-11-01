@@ -7,3 +7,28 @@
 	--background-start-rgb: 214, 219, 220;
 	--background-end-rgb: 255, 255, 255;
 }
+
+.scrolling-container {
+	white-space: nowrap; /* Prevent text from wrapping */
+	overflow: hidden; /* Hide overflowing content */
+	position: relative; /* Position relative for absolute positioning inside */
+}
+
+.scrolling-text {
+	display: inline-block;
+}
+
+/* Apply animation to the container */
+.scrolling-container {
+	animation: scrollText 12s linear infinite;
+}
+
+/* Define the keyframes for the scrolling animation */
+@keyframes scrollText {
+	0% {
+		transform: translateX(100%); /* Start position off the screen */
+	}
+	100% {
+		transform: translateX(-100%); /* End position off the screen */
+	}
+}

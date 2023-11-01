@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
 	return (
-		<div className="pb-52 pt-16 xl:pt-[70px] lg:px-10 px-6 text-white max-w-[1450px] m-auto">
+		<div className="pb-52 pt-14 xl:pt-[72px] lg:px-10 px-6 text-white max-w-[1450px] m-auto">
 			<div className="flex sm:flex-row flex-col m-auto flex-nowrap flex-shrink-0">
 				<div className="lg:w-[55%] lg:px-6 py-5 sm:py-0">
 					<h3 className="text-xs font-semibold text-[#a854b9] tracking-[4px] pb-1 lg:pb-6">
