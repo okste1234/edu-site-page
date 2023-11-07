@@ -1,5 +1,6 @@
 import About from "./About";
 import Blog from "./Blog";
+import Faq from "./Faq";
 import Img from "./Img";
 import Join from "./Join";
 import Testimonial from "./Testimonial";
@@ -26,6 +27,9 @@ const Main = () => {
 				</div>
 				<div>
 					<Blog />
+				</div>
+				<div>
+					<Faq />
 				</div>
 			</div>
 		</div>

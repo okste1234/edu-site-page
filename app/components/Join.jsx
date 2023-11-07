@@ -7,7 +7,7 @@ const Join = () => {
                 <div className="scrolling-text">
                     <h3 className='pr-3'>Register to be a part of our ongoing classes</h3>
                 </div>
-                <a href='/' className="btn bg-[#fdc000]/60 xl:text-base text-[#4C0859]">Join Now</a>
+                <a href='http://wa.me/2347055374007?text=Hello+Iconic+Impact+I+am+interested+in+your+Classes' target='_blank' className="btn bg-[#fdc000]/60 xl:text-base text-[#4C0859]">Join Now</a>
             </div>
         </div>
     );
