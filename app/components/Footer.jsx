@@ -1,5 +1,11 @@
 import React from "react";
 
-export const Footer = () => {
-	return <div>Footer</div>;
+const Footer = () => {
+	return (
+		<div className="absolute text-red-600">
+			{/* <div>ghfghkwfhwfgvdvgcadgcvagv</div> */}
+		</div>
+	);
 };
+
+export default Footer;

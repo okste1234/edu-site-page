@@ -5,7 +5,7 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ], daisyui: {
-    themes: ["light", "dark", "cupcake", "night", "forest", "business", "black"],
+    themes: ["light", "dark", "cupcake", "night", "forest", "business", "black", "corporate"],
   },
   theme: {
     extend: {
@@ -26,5 +26,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("daisyui", "@tailwindcss/aspect-ratio")],
+  plugins: [require("daisyui", "@tailwindcss/aspect-ratio"), require('tailwind-scrollbar'),],
 }
