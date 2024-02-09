@@ -87,7 +87,7 @@ const Navbar = () => {
 					</ul>
 				</div>
 				<div className="pt-6 lg:w-1/3 hidden lg:flex justify-end">
-					<a href="" className="btn bg-[#fdc000]/60">Join Now</a>
+					<a href="" className="btn bg-[#fdc000]">Join Now</a>
 				</div>
 			</div>
 		</div>
