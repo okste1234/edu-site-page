@@ -4,7 +4,7 @@ import Pag from "./Pag";
 const Why = () => {
 	return (
 
-		<div className="">
+		<div className="py-6 md:py-16">
 			<Pag
 				src={"/tu3.png"}
 				no={1}

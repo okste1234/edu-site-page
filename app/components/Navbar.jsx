@@ -57,7 +57,7 @@ const Navbar = () => {
 							alt="logo"
 							className="w-[50px] lg:w-[80px] h-auto"
 						/>
-						<span className="pt-4 lg:pt-6 text-[#4C0859] text-sm lg:text-xl text-center">
+						<span className="pt-4 lg:pt-6 text-[#510f4d]/90 text-sm lg:text-xl text-center">
 							{/* #81105b */}
 							<h1>ICONIC IMPACT</h1>
 						</span>
@@ -87,7 +87,7 @@ const Navbar = () => {
 					</ul>
 				</div>
 				<div className="pt-6 lg:w-1/3 hidden lg:flex justify-end">
-					<a href="" className="btn bg-[#fdc000]">Join Now</a>
+					<a href="" className="btn bg-[#fdc000]/60 rounded-3xl">Join Now</a>
 				</div>
 			</div>
 		</div>

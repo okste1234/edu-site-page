@@ -2,7 +2,7 @@ import React from "react";
 
 const Img = () => {
 	return (
-		<div className="relative -top-32 flex xs:flex-row flex-col items-center justify-evenly px-5 sm:px-0 max-w-[1450px] space-x-4 m-auto space-y-9 xs:space-y-0">
+		<div className="relative -top-24 flex xs:flex-row flex-col items-center justify-evenly px-5 sm:px-0 max-w-[1450px] space-x-4 m-auto space-y-9 xs:space-y-0">
 			<div className="relative bg-cover bg-center bg-no-repeat xl:w-[400px] w-80 h-56 xl:h-[290px]">
 				<div className="bg-[#a854b9]/10 absolute w-full h-full z-10 rounded">
 					{/* #81105b */}
