@@ -2,21 +2,21 @@ import Link from "next/link"
 
 export default function Blog() {
     return (
-        <section className="max-w-[1450px] py-12 md:py-24 lg:py-32 px-6">
-            <div className="container">
-                <div className="flex flex-col gap-4 md:gap-8 lg:gap-12">
+        <section className="max-w-[1450px] sm:py-16 lg:py:20 py-12 px-6 m-auto">
+            <div className="m-auto">
+                <div className="flex flex-col gap-6 md:gap-8 lg:gap-12">
                     <div className="space-y-2 text-center">
-                        <h2 className="text-2xl font-semibold tracking-tighter sm:text-4xl">Latest From Our Blog</h2>
+                        <h2 className="text-xl lg:pt-2 text-center font-semibold tracking-tighter sm:text-3xl">Latest From Our Blog</h2>
                         <p className="text-gray-500 mb-2">More insights from iconic impacts.</p>
                     </div>
                     <div className="grid max-w-sm gap-6 mx-auto sm:max-w-4xl lg:max-w-full lg:grid-cols-2 xl:gap-8">
-                        <div className="flex flex-col gap-2">
-                            <Link className="font-semibold" href="#">
+                        <div className="flex flex-col gap-4">
+                            <Link className="font-semibold text-center" href="/blog">
                                 <img
                                     alt="Image"
                                     className="aspect-video rounded-lg overflow-hidden object-cover object-center"
                                     height="350"
-                                    src="/logo.png"
+                                    src="/3.jpg"
                                     width="600"
                                 />
                                 <span className="sr-only">Read more about Introducing Vercel</span>
@@ -35,19 +35,19 @@ export default function Blog() {
                             </div>
                             <Link
                                 className="inline-flex h-8 items-center rounded-lg text-sm font-medium underline hover:text-gray-900"
-                                href="#"
+                                href="/blog"
                             >
                                 Read more
                                 <span className="sr-only">about Introducing Vercel</span>
                             </Link>
                         </div>
                         <div className="flex flex-col gap-2">
-                            <Link className="font-semibold" href="#">
+                            <Link className="font-semibold" href="/blog">
                                 <img
                                     alt="Image"
                                     className="aspect-video rounded-lg overflow-hidden object-cover object-center"
                                     height="350"
-                                    src="/3.jpg"
+                                    src="/logo.png"
                                     width="600"
                                 />
                                 <span className="sr-only">Read more about Introducing Vercel</span>
@@ -62,7 +62,7 @@ export default function Blog() {
                             </div>
                             <Link
                                 className="inline-flex h-8 items-center rounded-lg text-sm font-medium underline hover:text-gray-900 dark:hover:text-gray-50"
-                                href="#"
+                                href="/blog"
                             >
                                 Read more
                                 <span className="sr-only">about Introducing Vercel</span>

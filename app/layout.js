@@ -8,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="corporate">
-      <body className='scrollbar-thin overflow-x-hidden scrollbar-track-[#4C0859]/10 scrollbar-thumb-[#fdc000]/90'>{children}</body>
+      <body className='overflow-y-auto hover:overflow-y-scroll scrollbar-thin scrollbar-track-[#4C0859]/10 scrollbar-thumb-[#fdc000]/90'>{children}</body>
     </html>
   )
 }

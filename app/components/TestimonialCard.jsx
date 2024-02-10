@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 function TestimonialCard() {
     return (
         <article className='flex text-start rounded-xl space-y-6 
-            flex-shrink-0 max-w-[320px] sm:max-w-[520px] bg-white cursor-pointer transition-opacity duration-200 
+            flex-shrink-0 max-w-fit sm:max-w-[520px] bg-white cursor-pointer transition-opacity duration-200 
             overflow-hidden py-2 px-4 snap-center border-t-[#c8d7eb] border-t-4 font-medium'>
             <div div className="flex flex-col sm:flex-row justify-between bg-base-100 shadow-xl py-4 px-2" >
                 <figure className='sm:w-1/2'>
@@ -21,7 +21,7 @@ function TestimonialCard() {
                             y: 0
                         }}
                         transition={{ duration: 1.5 }}
-                        className='h-fit w-full'
+                        className='h-fit w-full rounded-md '
                         src="/img.webp" alt="Movie" />
                 </figure>
                 <div className="sm:w-1/2 py-2 sm:py-0 sm:px-4">

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Join = () => {
     return (
-        <div className='font-medium text-lg text-center items-center justify-center py-14 flex-col flex'>
-            <div className="scrolling-container px-2">
+        <div className='font-medium text-center items-center justify-center py-14 flex-col flex'>
+            <div className="scrolling-container text-sm sm:text-lg px-2">
                 <div className="scrolling-text">
                     <h3 className='px-2 tracking-[8px]'>Register to be a part of our ongoing classes!!!</h3>
                 </div>

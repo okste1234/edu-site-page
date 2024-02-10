@@ -10,9 +10,9 @@ const Testimonial = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
-            className='px-2 text-center pt-6 md:pt-12 lg:pt-16'
+            className='px-2 py-6 md:py-12 lg:py-16 max-w-[1450px]'
         >
-            <h3 className='text-[#a854b9] pb-6 font-semibold text-2xl lg:text-4xl'>What Students are Saying</h3>
+            <h3 className='text-[#a854b9] pb-4 font-semibold text-center text-xl sm:text-3xl'>What Students are Saying</h3>
             <div className='flex overflow-x-scroll space-x-5 md:space-x-10 snap-x md:p-5 scrollbar-thin scrollbar-track-[#4C0859]/10 scrollbar-thumb-[#fdc000]/90'>
                 <TestimonialCard />
                 <TestimonialCard />

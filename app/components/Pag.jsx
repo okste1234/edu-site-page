@@ -23,7 +23,7 @@ const Pag = ({ src, text, head, no }) => {
 					<div className="xl:text-base text-xs sm:text-sm">
 						<h3 className="">Why Iconic Impact?</h3>
 					</div>
-					<div className="text-[#e9ded9] pt-8 lg:pt-12 xl:pt-40 font-bold">
+					<div className="text-[#e9ded9] pt-8 lg:pt-12 xl:pt-20 font-bold">
 						<h3 className="lg:text-5xl xl:text-6xl  text-lg pb-2 lg:pb-8">{head}</h3>
 						<div className="lg:text-xl xl:text-2xl text-base">{text}</div>
 					</div>
