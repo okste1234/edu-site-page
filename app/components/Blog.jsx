@@ -2,8 +2,8 @@ import Link from "next/link"
 
 export default function Blog() {
     return (
-        <section className="w-full py-12 md:py-24 lg:py-32">
-            <div className="container px-4 md:px-6">
+        <section className="max-w-[1450px] py-12 md:py-24 lg:py-32 px-6">
+            <div className="container">
                 <div className="flex flex-col gap-4 md:gap-8 lg:gap-12">
                     <div className="space-y-2 text-center">
                         <h2 className="text-2xl font-semibold tracking-tighter sm:text-4xl">Latest From Our Blog</h2>
